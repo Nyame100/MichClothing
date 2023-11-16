@@ -10,14 +10,15 @@ const Hero = () => {
     <Wrapper className="section-center">
       <article className="content">
         <h1>
-          Sneakers <br />
+          Clothing <br />
           for the trends
         </h1>
         <p>
-          It all starts with a sneakerhead. Yes, it is OK to wear your sneakers
-          everywhere. Sneakerhead. Sneaker addict. Sneaker slave. Call it what
-          you want; there is a certain thrill, like an itch only shoes can
-          scratch, that sneakerheads feel for their passion.
+          Step into style, where quality meets affordability! Welcome to
+          <span> MichClothing</span>, your one-stop destination for high fashion
+          at prices that won't break the bank. Unleash your wardrobe's full
+          potential with our curated collection of chic, on-trend styles for
+          both men and women.
         </p>
         <Link to="/products" className="btn hero-btn">
           shop now
@@ -39,7 +40,9 @@ const Wrapper = styled.section`
   .img-container {
     display: none;
   }
-
+  span {
+    color: var(--clr-primary-5);
+  }
   p {
     line-height: 2;
     max-width: 45em;
